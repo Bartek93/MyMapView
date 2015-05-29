@@ -71,6 +71,8 @@ public class MainActivity extends Activity implements OnMapReadyCallback {
         mapFragment.getMapAsync(this);
     }
 
+    // some changes
+
     @Override
     public void onMapReady(GoogleMap map) {
         LatLng sydney = new LatLng(-33.867, 151.206);
